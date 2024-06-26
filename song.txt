@@ -1,0 +1,21 @@
+# Загальні налаштування додатку
+APP_HOST=localhost
+APP_PORT=3001
+NODE_ENV=development
+
+# Налаштування бази даних
+DB_NAME=thread
+TEST_DB_NAME=thread_test
+DB_USERNAME=postgres
+DB_PASSWORD=nataly  # Пароль для баз даних thread і thread_test
+DB_HOST=localhost
+DB_PORT=5432
+DB_CLIENT=pg
+DB_POOL_MIN=1
+DB_POOL_MAX=10
+
+# Конфіденційні ключі для Gyazo
+GYAZO_CLIENT_ID=s4o3P1Nb1gj1OyFDlsOO677cxBv3rvLo94E6T6G5QZA
+GYAZO_CLIENT_SECRET=tfVI_DpUPZPFCLtA3H4A9JnZ4otDJVRlnJ0xA6uXJ4U
+GYAZO_ACCESS_TOKEN=ev6C9L2SG4SrZIVpe_bi53EDt5XT99BL93QDrD5EMvE
+GYAZO_CALLBACK_URL=https://www.google.com/
